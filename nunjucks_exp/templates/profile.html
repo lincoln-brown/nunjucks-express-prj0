@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div>
+	<div class="block">
+		<div class="upper">
+			<div class="profilepic"> <img class="pfp" src="{{image}}"> </div>
+			<h4>{{name}}</h4>
+			<h6>{{Tag}}</h6>
+			<h6>Kingston Jamaica</h6>
+			<h6>{{date}}</h6>
+			
+		</div>
+		<br>
+		<div class="lower">
+			<p> I am a smart and talented  young man who loves<br> website design and development. Contact me if <br> you would like to work together on a new project.</p>
+
+			<div class="feed">
+				<div class="widgets">
+					<h3>20</h3>
+					<p>Post</p>
+				</div>
+
+				<div class="widgets">
+					<h3>260</h3>
+					<p>Following</p>
+					
+				</div>
+				<div class="widgets">
+					<h3>290</h3>
+					<p>Followers</p>
+					
+				</div>	
+
+			</div>
+			<button id="btn">Follow</button>
+
+		</div>
+		
+
+	</div>
+
+</div>
+
+{% endblock%}
